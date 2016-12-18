@@ -1,0 +1,38 @@
+.book {
+  height: 600px;
+  cursor: pointer;
+}
+
+.book > .mdl-card__title {
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.author_name {
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+}
+
+
+.likes, .date {
+  display: inline-flex;
+}
+
+
+.book_show {
+  text-align: center;
+}
+
+.intro {
+  max-width: 600px;
+  text-align: justify;
+  margin: 0 auto;
+}
